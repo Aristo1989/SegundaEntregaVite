@@ -1,6 +1,18 @@
+
+<p align="center">
+
 # Dragon Ball Api
 
+</p>
+
+<p align="center">
+
+  ![Vista Prin](https://i.blogs.es/04ac6a/2560_3000/1366_2000.jpeg)
+
+</p>
+
 Una aplicación web interactiva hecha con React que muestra personajes del universo Dragon Ball utilizando la [API oficial de Dragon Ball](https://web.dragonball-api.com/). Incluye búsqueda, filtrado por género, cambio de tema entre "Claro" y "Oscuro" usa el de tu preferencia y  por ultimo y no menos importante, vista de detalles de cada personaje.
+
 
 ---
 
@@ -33,13 +45,23 @@ Una aplicación web interactiva hecha con React que muestra personajes del unive
   <strong>Diseño del apartado principal en tono "Oscuro"</strong>
 </p>
 
-![Vista Oscuro](https://github.com/Aristo1989/SegundaEntregaVite/blob/cd0336aa2aa0409080d26f26b603e935989d9b85/src/Components/image/Capturas/Celular.png)
+<p align="center">
+
+  ![Vista Oscuro](https://github.com/Aristo1989/SegundaEntregaVite/blob/cf7f5a3c8ea626712deebdda46edd588415c6899/src/Components/image/Capturas/principalO.png)
+
+</p>
+
 
 <p align="center">
   <strong>Diseño del apartado principal en tono "Claro"</strong>
 </p>
 
-![Vista blanco](./Components/image/Capturas/principalB.png)
+<p align="center">
+
+![Vista blanco](https://github.com/Aristo1989/SegundaEntregaVite/blob/cf7f5a3c8ea626712deebdda46edd588415c6899/src/Components/image/Capturas/principalB.png)
+
+</p>
+
 
 <p align="center">
   <strong>Diseño de tarjetas de personaje tema "Oscuro"</strong>
