@@ -138,9 +138,12 @@ Mi aplicación permite alternar entre el modo claro y el modo oscuro gracias al 
     
     const alternarTema = () =>
       setModo((anterior) => (anterior === "dark" ? "light" : "dark"));
-    
+  
+   ```   
 
 Con eso se genera dinámicamente un tema con createTheme:
+
+ ```   
 
     const tema = createTheme({
       palette: {
@@ -154,20 +157,25 @@ Con eso se genera dinámicamente un tema con createTheme:
         }
       }
     });
-    
+  
+   ```   
 
 Este proveedor se aplica globalmente para que toda la app use el tema seleccionado:
 
+ ```   
     <ThemeProvider>
       <App />
     </ThemeProvider>
-    
+
+  ```   
 
 Y desde cualquier componente se puede acceder al tema actual y al método para alternarlo:
 
+ ```   
     const { modo, alternarTema } = useThemeMode();
 
  ```   
+
 
 ####  La barra de navegación (Navbar) cumple múltiples funciones esenciales:
 
@@ -228,7 +236,7 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
       />
     </ SearchContainer>
     
-    ```
+ ```   
 
 - Filtrar personajes por género (Todos, Hombre, Mujer).
     
