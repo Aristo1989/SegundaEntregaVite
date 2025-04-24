@@ -69,7 +69,7 @@ Una aplicación web interactiva hecha con React que muestra personajes del unive
 <p align="center">
   <strong>Vista en Celular (iPhone SE 375 x 667) </strong>
 </p>
-![Vista celular](./Components/image/Capturas/Celular.png)
+![Vista celular](src/Components/image/Capturas/Celular.png)
 
 <p align="center">
   <strong>Vista en Tablet (iPad Air  820 x 1180) </strong>
