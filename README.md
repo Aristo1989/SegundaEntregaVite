@@ -264,7 +264,7 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
 
 - Adaptarse a pantallas móviles con diseño responsive.
 
-    >
+  ```
     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
     
     < AppBar
@@ -285,7 +285,8 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
         {/* ... */}
       </ Toolbar>
     </ AppBar>
-    >
+    
+    ```
 
 ###  Acceso a proyecto en vercel
 -  Proyecto: [linkVercel](https://web.dragonball-api.com/)
