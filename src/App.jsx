@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useRef } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
-import Header from "./components/Header/Header";
-import CharacterCard from "./components/Cards/CharacterCard";
-import Footer from "./components/Footer/footer";
+import Navbar from "./Components/Navbar/Navbar";
+import Header from "./Components/Header/Header";
+import CharacterCard from "./Components/Cards/CharacterCard";
+import Footer from "./Components/Footer/footer";
 import DetallesCards from "./Components/Detalles/DetallesCards";
 import About from "./Components/Me/About";
 import NotFound from "./Components/Notfound/Notfound";
