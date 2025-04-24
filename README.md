@@ -133,6 +133,7 @@ Una aplicación web interactiva hecha con React que muestra personajes del unive
 
 Mi aplicación permite alternar entre el modo claro y el modo oscuro gracias al uso del contexto de React junto con Material UI.
 
+```
     const [modo, setModo] = useState("dark");
     
     const alternarTema = () =>
@@ -165,11 +166,14 @@ Este proveedor se aplica globalmente para que toda la app use el tema selecciona
 Y desde cualquier componente se puede acceder al tema actual y al método para alternarlo:
 
     const { modo, alternarTema } = useThemeMode();
-    
+
+ ```   
 
 ####  La barra de navegación (Navbar) cumple múltiples funciones esenciales:
 
 - Cambiar entre tema claro y oscuro con un ícono personalizado.
+
+```
 
     const { mode, toggleTheme } = useThemeMode();
     
@@ -177,10 +181,12 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
     < IconButton color="inherit" onClick={toggleTheme}>
       < img src={esfera} alt={Toggle to ${mode === "dark" ? "light" : "dark"} mode} />
     </ IconButton>
-    
+
+```    
 
 - Buscar personajes mediante una barra de búsqueda.
 
+```
 
     import { InputBase } from "@mui/material";
     import SearchIcon from "@mui/icons-material/Search";
@@ -221,10 +227,13 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
         onChange={(e) => onSearch(e.target.value)}
       />
     </ SearchContainer>
+    
+    ```
 
 - Filtrar personajes por género (Todos, Hombre, Mujer).
     
-	 
+	 ```
+
     {[
       { key: "all", label: "Home" },
       { key: "male", label: "Male" },
@@ -247,10 +256,12 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
       </ Button>
     ))}
     
+    ```
 
 - Redirigir a una vista personalizada "About Me".
     
-	
+	```
+
     { { key: "about", label: "Me" } }.map...
 
     const handleFilterClick = (key) => {
@@ -261,6 +272,7 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
       }
     };
     
+    ```
 
 - Adaptarse a pantallas móviles con diseño responsive.
 
@@ -285,7 +297,7 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
         {/* ... */}
       </ Toolbar>
     </ AppBar>
-    
+
     ```
 
 ###  Acceso a proyecto en vercel
