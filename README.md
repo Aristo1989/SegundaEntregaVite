@@ -264,13 +264,13 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
 
 - Adaptarse a pantallas móviles con diseño responsive.
 
-    
+    >
     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
     
     < AppBar
       position={isHome ? "fixed" : isMobile ? "static" : "fixed"}
       sx={{ /* ... */ }}
-    >
+    
       < Toolbar
         sx={{
           display: "flex",
@@ -281,11 +281,11 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
           py: isMobile ? 1 : 0.5,
           gap: isMobile ? 1 : 0,
         }}
-      >
+      
         {/* ... */}
       </ Toolbar>
     </ AppBar>
-    
+    >
 
 ###  Acceso a proyecto en vercel
 -  Proyecto: [linkVercel](https://web.dragonball-api.com/)
