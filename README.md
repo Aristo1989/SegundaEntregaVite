@@ -32,7 +32,7 @@ Una aplicación web interactiva hecha con React que muestra personajes del unive
 <p align="center">
   <strong>Diseño del apartado principal en tono "Oscuro"</strong>
 </p>
-![Vista oscuro](./Components/image/Capturas/principalO.png)
+![Vista oscuro](./Components/Image/Capturas/principalO.png)
 
 <p align="center">
   <strong>Diseño del apartado principal en tono "Claro"</strong>
@@ -115,7 +115,7 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
     const { modo, alternarTema } = useThemeMode();
     
 
-####La barra de navegación (Navbar) cumple múltiples funciones esenciales:
+####  La barra de navegación (Navbar) cumple múltiples funciones esenciales:
 
 - Cambiar entre tema claro y oscuro con un ícono personalizado.
 
@@ -125,9 +125,9 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
     const { mode, toggleTheme } = useThemeMode();
     
     
-    <IconButton color="inherit" onClick={toggleTheme}>
-      <img src={esfera} alt={`Toggle to ${mode === "dark" ? "light" : "dark"} mode`} />
-    </IconButton>
+    < IconButton color="inherit" onClick={toggleTheme}>
+      < img src={esfera} alt={Toggle to ${mode === "dark" ? "light" : "dark"} mode} />
+    </ IconButton>
     
 
 - Buscar personajes mediante una barra de búsqueda.
@@ -238,7 +238,7 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
     </AppBar>
     
 
-###Acceso a proyecto en vercel
+###  Acceso a proyecto en vercel
 -  Proyecto: [linkVercel](https://web.dragonball-api.com/)
 
 ---
