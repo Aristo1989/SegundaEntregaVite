@@ -14,8 +14,8 @@ import { useTheme } from "@mui/material/styles";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useThemeMode } from "../Tema/Tema";
 import "./navbar.css";
-import titulo from "../Image/titulo.png";
-import esfera from "../Image/esfera.png";
+import titulo from "../image/titulo.png";
+import esfera from "../image/esfera.png";
 
 const SearchContainer = styled("div")(({ theme }) => ({
   position: "relative",

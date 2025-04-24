@@ -1,7 +1,7 @@
 import React from "react";
 import "./Notfound.css";
-import Notfound from "../Image/404.png";
-import Notfound2 from "../Image/404.2.png";
+import Notfound from "../image/404.png";
+import Notfound2 from "../image/404.2.png";
 import { useTheme } from "@mui/material/styles";
 
 const NotFound = () => {

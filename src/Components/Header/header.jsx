@@ -1,8 +1,8 @@
 import React from "react";
 import { useTheme } from "@mui/material/styles";
 import "./header.css";
-import apiDark from "../Image/api.png";
-import apiLight from "../Image/api(blanca).png";
+import apiDark from "../image/api.png";
+import apiLight from "../image/api(blanca).png";
 
 const Header = () => {
   const theme = useTheme();

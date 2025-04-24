@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@mui/material";
-import footerImage from "../Image/footer.png";
+import footerImage from "../image/footer.png";
 import { useTheme } from "@mui/material/styles";
 import "./footer.css";
 

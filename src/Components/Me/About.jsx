@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Typography } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import "../Detalles/DetallesCards.css";
-import personalImage from "../Image/personal.png";
+import personalImage from "../image/personal.png";
 
 const About = () => {
   const theme = useTheme();
