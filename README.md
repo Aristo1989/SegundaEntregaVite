@@ -171,9 +171,6 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
 
 - Cambiar entre tema claro y oscuro con un ícono personalizado.
 
-   
-    
-    
     const { mode, toggleTheme } = useThemeMode();
     
     
@@ -184,7 +181,7 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
 
 - Buscar personajes mediante una barra de búsqueda.
 
-    
+
     import { InputBase } from "@mui/material";
     import SearchIcon from "@mui/icons-material/Search";
     import { styled } from "@mui/system";
@@ -215,15 +212,15 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
       fontSize: "0.85rem",
     });
     
-    <SearchContainer>
-      <SearchIconWrapper>
-        <SearchIcon sx={{ fontSize: isMobile ? 20 : 24 }} />
-      </SearchIconWrapper>
-      <StyledInput
+    < SearchContainer>
+      < SearchIconWrapper>
+        < SearchIcon sx={{ fontSize: isMobile ? 20 : 24 }} />
+      </ SearchIconWrapper>
+      < StyledInput
         placeholder="Search character..."
         onChange={(e) => onSearch(e.target.value)}
       />
-    </SearchContainer>
+    </ SearchContainer>
 
 - Filtrar personajes por género (Todos, Hombre, Mujer).
     
@@ -233,7 +230,7 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
       { key: "male", label: "Male" },
       { key: "female", label: "Female" },
     ].map(({ key, label }) => (
-      <Button
+      < Button
         key={key}
         variant="contained"
         onClick={() => handleFilterClick(key)}
@@ -247,7 +244,7 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
         }}
       >
         {label}
-      </Button>
+      </ Button>
     ))}
     
 
@@ -270,11 +267,11 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
     
     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
     
-    <AppBar
+    < AppBar
       position={isHome ? "fixed" : isMobile ? "static" : "fixed"}
       sx={{ /* ... */ }}
     >
-      <Toolbar
+      < Toolbar
         sx={{
           display: "flex",
           flexDirection: isMobile ? "column" : "row",
@@ -286,8 +283,8 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
         }}
       >
         {/* ... */}
-      </Toolbar>
-    </AppBar>
+      </ Toolbar>
+    </ AppBar>
     
 
 ###  Acceso a proyecto en vercel
