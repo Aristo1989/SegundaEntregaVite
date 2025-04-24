@@ -32,7 +32,7 @@ Una aplicación web interactiva hecha con React que muestra personajes del unive
 <p align="center">
   <strong>Diseño del apartado principal en tono "Oscuro"</strong>
 </p>
-![Vista oscuro](./Components/Image/Capturas/principalO.png)
+![Vista Oscuro](./Components/Image/Capturas/principalO.png)
 
 <p align="center">
   <strong>Diseño del apartado principal en tono "Claro"</strong>
