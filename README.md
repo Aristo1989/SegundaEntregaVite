@@ -66,40 +66,68 @@ Una aplicación web interactiva hecha con React que muestra personajes del unive
 <p align="center">
   <strong>Diseño de tarjetas de personaje tema "Oscuro"</strong>
 </p>
-![Vista oscurot](./Components/image/Capturas/tarjetas.png)
+
+<p align="center">
+
+![Vista oscurot](https://github.com/Aristo1989/SegundaEntregaVite/blob/23bdecb8f21629063a7f276bdfc1e146773d6f30/src/Components/image/Capturas/tarjetas.png)
+
+</p>
 
 <p align="center">
   <strong>Diseño de tarjetas de personaje tema "Claro"</strong>
 </p>
-![Vista blancot](./Components/image/Capturas/tarjetas2.png)
+
+<p align="center">
+
+![Vista blancot](https://github.com/Aristo1989/SegundaEntregaVite/blob/23bdecb8f21629063a7f276bdfc1e146773d6f30/src/Components/image/Capturas/tarjetas2.png)
+
+</p>
 
 <p align="center">
   <strong>Diseño de especificaciones de personaje </strong>
 </p>
-![Vista especificaciones](./Components/image/Capturas/especificaciones.png)
+
+<p align="center">
+
+![Vista especificaciones](https://github.com/Aristo1989/SegundaEntregaVite/blob/23bdecb8f21629063a7f276bdfc1e146773d6f30/src/Components/image/Capturas/especificaciones.png)
+</p>
 
 <p align="center">
   <strong>Diseño de transformaciones de personaje </strong>
 </p>
-![Vista transformacion](./Components/image/Capturas/transformaciones.png)
+
+<p align="center">
+
+![Vista transformacion](https://github.com/Aristo1989/SegundaEntregaVite/blob/23bdecb8f21629063a7f276bdfc1e146773d6f30/src/Components/image/Capturas/transformaciones.png)
+</p>
 
 <p align="center">
   <strong>Control de Error 404 </strong>
 </p>
-![Vista error](./Components/image/Capturas/error.png)
 
+<p align="center">
+
+![Vista error](https://github.com/Aristo1989/SegundaEntregaVite/blob/23bdecb8f21629063a7f276bdfc1e146773d6f30/src/Components/image/Capturas/error.png)
+</p>
 
 ##  Vista Responsiva
 <p align="center">
   <strong>Vista en Celular (iPhone SE 375 x 667) </strong>
 </p>
-![Vista celular](src/Components/image/Capturas/Celular.png)
+
+<p align="center">
+
+![Vista celular](https://github.com/Aristo1989/SegundaEntregaVite/blob/23bdecb8f21629063a7f276bdfc1e146773d6f30/src/Components/image/Capturas/Celular.png)
+</p>
 
 <p align="center">
   <strong>Vista en Tablet (iPad Air  820 x 1180) </strong>
 </p>
-![Vista tablet](./Components/image/Capturas/Tablet.png)
 
+<p align="center">
+
+![Vista tablet](https://github.com/Aristo1989/SegundaEntregaVite/blob/23bdecb8f21629063a7f276bdfc1e146773d6f30/src/Components/image/Capturas/Tablet.png)
+</p>
 
 ##  Descripcion de algunas funcionalidades
 
