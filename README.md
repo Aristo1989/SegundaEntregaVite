@@ -32,11 +32,13 @@ Una aplicación web interactiva hecha con React que muestra personajes del unive
 <p align="center">
   <strong>Diseño del apartado principal en tono "Oscuro"</strong>
 </p>
+
 ![Vista Oscuro](https://github.com/Aristo1989/SegundaEntregaVite/blob/cd0336aa2aa0409080d26f26b603e935989d9b85/src/Components/image/Capturas/Celular.png)
 
 <p align="center">
   <strong>Diseño del apartado principal en tono "Claro"</strong>
 </p>
+
 ![Vista blanco](./Components/image/Capturas/principalB.png)
 
 <p align="center">
