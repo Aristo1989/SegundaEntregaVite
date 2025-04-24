@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
-import Header from "./Components/Header/Header";
+import Header from "./Components/Header/header";
 import CharacterCard from "./Components/Cards/CharacterCard";
 import Footer from "./Components/Footer/footer";
 import DetallesCards from "./Components/Detalles/DetallesCards";
