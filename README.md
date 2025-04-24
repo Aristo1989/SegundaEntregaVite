@@ -309,6 +309,6 @@ Y desde cualquier componente se puede acceder al tema actual y al método para a
     ```
 
 ###  Acceso a proyecto en vercel
--  Proyecto: [linkVercel](https://web.dragonball-api.com/)
+-  Proyecto: [Dragon Ball Api](https://dragonballapi-rosy.vercel.app/)
 
 ---
