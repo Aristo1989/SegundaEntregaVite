@@ -1,0 +1,24 @@
+.MuiSelect-icon {
+    color: white;
+  }
+
+
+@media (max-width: 900px) {
+  .MuiToolbar-root {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 8px;
+    padding: 10px 0;
+  }
+
+  .MuiButtonBase-root {
+    font-size: 0.8rem !important;
+  }
+
+  .MuiInputBase-input {
+    font-size: 0.9rem;
+  }
+}
+
+
+  

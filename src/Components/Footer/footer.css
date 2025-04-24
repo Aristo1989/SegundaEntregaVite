@@ -1,0 +1,18 @@
+.footer {
+    margin-top: 40px;
+    padding: 30px 0;
+    background-color: #11172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 250px; /* aumentamos el tamaño */
+  }
+  
+  
+  
+  

@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #001033;
+  font-family: "Roboto", sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.scroll-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
